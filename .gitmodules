@@ -7,3 +7,6 @@
 [submodule "services/order-service"]
 	path = services/order-service
 	url = https://github.com/Haingue/order-service.git
+[submodule "clients/cookeasy-client"]
+	path = clients/cookeasy-client
+	url = https://github.com/Haingue/cookeasy-client.git
