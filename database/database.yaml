@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  #serveur de base de donnees
+  database:
+    image: 'mariadb:10.3'
+    container_name: database
+    restart: always
+    environment:
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=recipe
+      - MYSQL_DATABASE=recipe_db
+      - MYSQL_ROOT_PASSWORD=cookeasy
+    ports:
+      - '3306:3306'
+    volumes:
+      - ${PWD}/mariadb/:/var/lib/mysql/
+      - ${PWD}/init:/docker-entrypoint-initdb.d
