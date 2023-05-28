@@ -1,0 +1,9 @@
+[submodule "services/product-service"]
+	path = services/product-service
+	url = https://github.com/Haingue/product-service.git
+[submodule "services/recipe-service"]
+	path = services/recipe-service
+	url = https://github.com/Haingue/recipe-service.git
+[submodule "services/order-service"]
+	path = services/order-service
+	url = https://github.com/Haingue/order-service.git
