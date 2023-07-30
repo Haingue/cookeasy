@@ -10,3 +10,6 @@
 [submodule "clients/cookeasy-client"]
 	path = clients/cookeasy-client
 	url = https://github.com/Haingue/cookeasy-client.git
+[submodule "services/user-service"]
+	path = services/user-service
+	url = https://github.com/Haingue/user-service.git
